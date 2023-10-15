@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.to-top{
+    background: rgb(214, 197, 175);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:16px;
+    right:32px;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    display:flex;
+    color: rgb(184, 18, 18);
+    
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.to-top.active{
+    bottom:32px;
+    pointer-events:auto ;
+    opacity:1;
+}
+
+ran{
+    font-size: 25px;
+    color: #658cdb;
+}
+ramd{
+    color: orange
+}
+body{
+    font-family: 'Poppins', sans-serif !important;
+    background-image: url('Images/flag.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+.row p{
+    text-align: justify ;
+}
+#life{
+    padding: 100px 0;
+    color: 3c366b;
+}
+
+.title::before{
+    content: '';
+    background: #f1c152;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+    transform: translateY(45px);
+}
+.title{
+    font-size: 35px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    font-weight: lighter;    
+    margin-top: 35px !important;
+}
+ul li{
+    padding: 3px;
+    font-weight: 300;
+    color: black;
+}
+.titl::before{
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+}
+.titl{
+    font-size: 35px;
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(202, 52, 165);
+    color: gold;
+    vertical-align:middle;
+}
